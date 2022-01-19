@@ -6,7 +6,7 @@ function Card(props) {
   return (
 
     <div> 
-      <h2 style={{color:black}}>{props.name}</h2>
+      <h2 style={{color:"black"}}>{props.name}</h2>
       <img  style={{width:"500px"}}src={props.image}  alt="sheldon_img" />
       <p>{props.email}</p>
       <p>{props.phoneno}</p>
